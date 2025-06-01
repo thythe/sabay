@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: 'Khmer OS Battambang', sans-serif;
+  background-color: #fff;
+}
+
+header {
+  background-color: #ff0036;
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 60px;
+  margin-left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-right: 20px;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: px;
+  padding: 20px;
+}
+
+.featured {
+  background-color: #ddd;
+  padding: 60px;
+  border-radius: 1px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+  height: 280px;
+}
+
+.featured .tag {
+  background: orange;
+  padding: 5px 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.sport { background-image: url('/foodball.jpg'); }
+.life { background-image: url('/JS.jpg'); }
+.tech { background-image: url('/BJ.jpg'); }
+.music { background-image: url('/Ks.jpg'); }
+
+.featured h2 {
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
+  font-size: 18px;
+}
+
+.featured p {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 14px;
+}
+.site-footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+  font-size: 14px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  gap: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-section h3 {
+  color: #e6c17c;
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  color: #ccc;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px 0;
+}
+
+.footer-logo {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.partner-icons img,
+.social-icons img {
+  height: 30px;
+  margin: 5px;
+}
